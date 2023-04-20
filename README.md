@@ -38,7 +38,9 @@ Dentro de esta sintaxis, cada no-terminal se sigue representando mediante una le
 
 ## Forma de ingresar la cadena:
 
-Como ejemplo, suponga que la gramatica es :
+Lo primero que se pedira a la hora de correr el programa es el numero de la gramatica la cual corresponde a la cadena que se procesara. La gramatica esta identificada como se mostro anteriormente, es decir, grammar1 es la 1 , etc.
+
+Por otro lado, como ejemplo, suponga que la gramatica es :
 
     grammar1 = """ 
                     A -> 'a' B F
