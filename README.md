@@ -40,11 +40,11 @@ Dentro de esta sintaxis, cada no-terminal se sigue representando mediante una le
 
 Como ejemplo, suponga que la gramatica es :
 
-grammar1 = """ 
+    grammar1 = """ 
                     A -> 'a' B F
                     F -> 'd' F |
                     B -> 'b'
                     """
 
-Esta gramatica hace la cadena 'abddd' por ejemplo. A la hora de ingresar esta cadena para validarla con el programa, se debe de ingresar cada caracter separado por un espacio. Es decir, en lugar de ingresar 'abddd', se debe de ingresar 'a b d d d'.
+Esta gramatica acepta la cadena 'abddd' por ejemplo. A la hora de ingresar esta cadena para validarla con el programa, se debe de ingresar cada caracter separado por un espacio. Es decir, en lugar de ingresar 'abddd', se debe de ingresar 'a b d d d'.
         
